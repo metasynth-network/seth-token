@@ -1,0 +1,19 @@
+{
+  "name": "metasynth-seth-bsc",
+  "version": "1.0.0",
+  "description": "sETH (Synth Ethereum) token contract on BNB Chain for MetaSynth Protocol",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network bsc",
+    "verify": "npx hardhat verify --network bsc <contract_address>"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.26.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
