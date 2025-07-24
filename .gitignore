@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.*
+
+# Hardhat build output
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Coverage and build directories
+coverage/
+build/
+
+# Node.js dependencies
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tsbuildinfo
+*.swp
+.DS_Store
+
+# Optional: exclude lockfile if not required
+# package-lock.json
+
+# Editor settings (optional)
+.vscode/
